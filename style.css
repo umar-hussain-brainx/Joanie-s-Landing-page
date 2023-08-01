@@ -223,9 +223,7 @@ footer{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
-    .steps_inner .step:nth-child(2)::after {
-        display: none;
-    }  
+ 
     .image_with_text_inner .box{
         flex-direction: column;
     }
@@ -285,4 +283,7 @@ footer{
         bottom: 0;
         margin: auto;
     } 
+       .steps_inner .step:nth-child(2)::after {
+        display: none;
+    }  
 }
