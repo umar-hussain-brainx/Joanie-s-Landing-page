@@ -284,6 +284,6 @@ footer{
         margin: auto;
     } 
        .steps_inner .step:nth-child(2)::after {
-        display: none;
+        display: none !important;
     }  
 }
