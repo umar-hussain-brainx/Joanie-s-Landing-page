@@ -192,9 +192,6 @@ footer{
     gap: 0px;
     max-width: 450px;
 }
-.face_insta{
-
-}
 .face_insta img{
     width: 100%;
     max-width: 40px;
@@ -276,4 +273,16 @@ footer{
     .footer_inner{
         flex-direction: column;
     }
+    .steps_inner .step:not(:last-child)::after {
+        content: '';
+        width: 3px;
+        background: #D8D8D8;
+        height: 50px;
+        position: absolute;
+        display: block;
+        right: 0px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    } 
 }
