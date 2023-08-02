@@ -28,7 +28,7 @@ img{
     width: 100%;
 }
 .page-width{
-    max-width: 1440px;
+    max-width: 100%;
     margin:auto;
 }
 
@@ -184,9 +184,12 @@ footer{
     margin-top: 5rem;
 }
 .footer_inner {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: space-between;
+    max-width: 1230px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .icon p{
     color:#fff;
@@ -196,6 +199,15 @@ footer{
     grid-template-columns: 1fr 1fr;
     gap: 0px;
     max-width: 450px;
+}
+.face_insta{
+    text-align: right;
+}
+.footer_inner .copyright p{
+    text-align: center;
+}
+.store_icon{
+    text-align: left;
 }
 .face_insta img{
     width: 100%;
@@ -246,7 +258,7 @@ footer{
     }
 
     h2{
-        font-size: 24px;
+        font-size: 30px;
         font-weight: 700;
         line-height: 34px;
         letter-spacing: 0em;
@@ -291,4 +303,28 @@ footer{
        .steps_inner .step:nth-child(2)::after {
         display: none !important;
     }  
+    .image_with_text_inner .box{
+        padding: 4rem 15px; 
+        gap: 2rem;
+    }
+    .bottom_banner .banner_inner{
+        margin: 0px 15px;
+        border-radius: 30px;
+    }
+    .footer_inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1230px;
+        margin: auto;
+    }
+    .face_insta{
+        text-align: center;
+    }
+    .footer_inner .copyright p{
+        text-align: center;
+    }
+    .store_icon{
+        text-align: center;
+    }
 }
